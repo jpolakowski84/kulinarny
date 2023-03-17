@@ -1,0 +1,82 @@
+body{
+    size: 1920 765;
+    background-color: 247291;
+    font-family: 'Maven Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+nav{
+    background-color: 247291;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: start;
+    
+    
+}
+h1{
+    color: f8da5b ;
+    font-size: 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+aside{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+     
+ 
+aside div{
+    /* Menu*/
+    color: f8da5b;
+    background: rgb(70,185,230);
+    background: radial-gradient(circle, rgba(70,185,230,1) 0%, rgba(36,114,145,1) 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px ;
+    margin-left: 25px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;    
+}
+
+main{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+    color: rgba(255, 255, 255, 0.63);
+  
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.63);
+}
+ul{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    color: rgba(255, 255, 255, 0.63);
+    text-align: start;
+    list-style:circle;
+}
+article div{
+    color: rgba(255, 255, 255, 0.63) ;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Maven Pro', sans-serif;
+}
+a{
+    color:f8da5b;
+    text-decoration: none;
+}
+footer{
+    margin: 5rem;
+    text-align: center;
+}
